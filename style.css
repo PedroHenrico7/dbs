@@ -19,7 +19,8 @@ header{
     background-image: linear-gradient(to bottom, var(--cor0), var(--cor4) );
     font-family: Arial, Helvetica, sans-serif;
     padding: 100px;
-    min-width: 300px;
+    
+    text-align: center;
     
 }
 
@@ -124,11 +125,6 @@ p{
     
     margin: 15px;
 
-}
-
-p < a {
-
-    color: #F24822;
 }
 
 
