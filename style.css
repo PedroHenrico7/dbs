@@ -19,8 +19,8 @@ header{
     background-image: linear-gradient(to bottom, var(--cor0), var(--cor4) );
     font-family: Arial, Helvetica, sans-serif;
     padding: 100px;
-    
     text-align: center;
+    margin: auto;
     
 }
 
@@ -51,16 +51,25 @@ nav{
         text-align: center;
         padding: 9px;
         padding-bottom: 30px;
+      
+        
         
              
 }
-nav > a {
+
+nav div { text-align: center; margin: center;
+
+    
+
+}
+nav a {
 
     color: whitesmoke;
-    padding: 10px;
     text-decoration: none;
     transition-duration: 0,5s;
     border-radius: 4px;
+    padding: 1px;
+    
 
 }
 
@@ -79,9 +88,11 @@ main{
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.405);
 
     min-width: 320px;
-    max-width: 370px;
-    margin:auto
+    max-width: 100px;
+    margin: auto;
 }
+
+
 p a {
 
     color: var(--cor0);
@@ -157,7 +168,7 @@ a:hover{
 
 }
 
-a { color: whitesmoke;}
+
 
 
 aside {
@@ -172,7 +183,7 @@ aside {
 
 aside li{
 
-    padding: 10px;
+    padding: 5px;
     text-align: center;
 }
 
@@ -181,8 +192,9 @@ aside a {
 
    color: var(--cor0);
    text-decoration: none;
-   padding: 10px;
+   padding: 5%;
    border-radius: 5px;
+   font-size: small;
    
   
 }
@@ -215,12 +227,15 @@ footer {
     padding-bottom: 4px;
     padding-top: 1px;
     margin-top: 1px ;
+    margin: auto;
 
 }
+
 
 footer a{
 
     color: whitesmoke;
+    
 }
 
 footer a:hover {
